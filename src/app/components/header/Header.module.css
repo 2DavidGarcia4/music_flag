@@ -1,0 +1,87 @@
+.navbar {
+  background: black;
+  height: 80px;
+}
+
+.navbar-logo {
+  border-width: 4px;
+  border-color: #dc9e02;
+  border-style: groove;
+  margin-left: -15px;
+  margin-top: -8px;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  transform: translate(5%, 50%);
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 65px;
+  height: 60px;
+  margin: 0rem;
+  margin-top: -0.0rem;
+  position: absolute;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+}
+
+.flip-box-back {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+}
+
+.flip-box-back {
+  transform: rotateY(520deg);
+}
+
+.flip-box-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 3s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+}
+
+.flag-logo3 {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.flip-box-back {
+  transform: rotateY(520deg);
+}
+
+.flip-box-back {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+}
+
+.flag-logo4 {
+  width: 60px;
+  height: 60px;
+  margin-left: 285px;
+}
