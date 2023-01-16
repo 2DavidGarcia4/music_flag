@@ -30,14 +30,11 @@ function Card({item}: {item: BandsType}) {
     badgeText = "Boletos Disponibles"
   }
 
-  // import imagen from `../../images/${item.coverImg}`
-  const aaa = require(`../../images/${item.coverImg}`)
-  console.log(aaa)
 
   return (
     <div className="card">
-      {(badgeText && aaa) && (<div className="card--badge">{badgeText}</div>)}
-      <Image className="card--image" src={aaa} alt='card' width={200} height={200} />
+      {(badgeText) && (<div className="card--badge">{badgeText}</div>)}
+      {/* <Image className="card--image" src="/astro.png" alt='card' width={200} height={200} /> */}
       {/* <img src={`../../images/${item.coverImg}`} className="card--image" alt="card" /> */}
       <div className="notranslate">
         <h1 className="card--title">{item.title}</h1>

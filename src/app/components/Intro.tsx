@@ -1,4 +1,4 @@
-import "../../images/intro.css"
+import "../../styles/intro.css"
 import SponsorContainer from "./SponsorContainer"
 import Clients from "./Clients"
 import ButtonTreeCategories from "./categories/Categories";
